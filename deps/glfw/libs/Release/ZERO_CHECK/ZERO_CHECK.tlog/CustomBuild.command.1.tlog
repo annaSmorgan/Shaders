@@ -1,0 +1,10 @@
+^E:\GITHUB\GLFW\CMAKEFILES\D24C4AFB15EFE340622428D42B76DFA3\GENERATE.STAMP.RULE
+setlocal
+E:\cMake\cmake-3.18.3-win32-x86\bin\cmake.exe -SE:/github/glfw -BE:/github/glfw --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/github/glfw/GLFW.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

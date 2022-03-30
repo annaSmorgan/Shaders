@@ -1,0 +1,5 @@
+38842: GL Error Callback: 
+ Error Source: API
+ Error Type: ERROR
+ Severity: High
+ Message: GL_INVALID_OPERATION error generated. State(s) are invalid: primitive mode match.

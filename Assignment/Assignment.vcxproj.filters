@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShaderLoader.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shadow.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TankRender.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FireParticles.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DeferredRender.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WaterTess.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Reflections.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DirLight.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpotLight.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PointLight.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\ShaderLoader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shadow.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TankRender.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FireParticles.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stdafx.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SkyBox.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DeferredRender.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WaterTess.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Reflections.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DirLight.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PointLight.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SpotLight.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shaders\fragmentGeo.glsl">
+      <Filter>Shaders\Geo</Filter>
+    </None>
+    <None Include="resources\shaders\geometry.glsl">
+      <Filter>Shaders\Geo</Filter>
+    </None>
+    <None Include="resources\shaders\tf_geom.glsl">
+      <Filter>Shaders\Geo</Filter>
+    </None>
+    <None Include="resources\shaders\tf_vertex.glsl">
+      <Filter>Shaders\Geo</Filter>
+    </None>
+    <None Include="resources\shaders\vertexGeo.glsl">
+      <Filter>Shaders\Geo</Filter>
+    </None>
+    <None Include="resources\shaders\fragmentT.glsl">
+      <Filter>Shaders\Tess</Filter>
+    </None>
+    <None Include="resources\shaders\tessControl.glsl">
+      <Filter>Shaders\Tess</Filter>
+    </None>
+    <None Include="resources\shaders\tessEval.glsl">
+      <Filter>Shaders\Tess</Filter>
+    </None>
+    <None Include="resources\shaders\vertexT.glsl">
+      <Filter>Shaders\Tess</Filter>
+    </None>
+    <None Include="resources\shaders\vertex_shadow.glsl">
+      <Filter>Shaders\shadow</Filter>
+    </None>
+    <None Include="resources\shaders\fragment_shadow.glsl">
+      <Filter>Shaders\shadow</Filter>
+    </None>
+    <None Include="resources\shaders\fragment.glsl">
+      <Filter>Shaders\light/model</Filter>
+    </None>
+    <None Include="resources\shaders\vertex.glsl">
+      <Filter>Shaders\light/model</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{6149e03d-2c24-47de-b1ad-4a8628b6ebcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{7d90cdb8-672b-4753-bf5e-627613192ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{dc7fae60-1c78-45a0-9f45-57c7ec07e988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Geo">
+      <UniqueIdentifier>{943c03df-12b2-4e22-8321-ed179853d79f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Tess">
+      <UniqueIdentifier>{7fedebd1-30a7-4b8c-b7c2-a07852a663a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\shadow">
+      <UniqueIdentifier>{25404945-d6ab-49bc-92a2-af39fb6941de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\light/model">
+      <UniqueIdentifier>{d4543010-4bac-430d-bffc-e0c20d35f3ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
